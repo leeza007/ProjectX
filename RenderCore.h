@@ -90,7 +90,7 @@ void Renderer::DrawMenu()
     Style->Colors[ImGuiCol_Button] = ImColor(25, 30, 34);
     Style->Colors[ImGuiCol_ButtonHovered] = ImColor(25, 30, 34);
     Style->Colors[ImGuiCol_ButtonActive] = ImColor(25, 30, 34);
-    static auto Name = "Ninja.FUN | YTMcGamer#0131";
+    static auto Name = "Project-X";
     static auto Flags = ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoSavedSettings;
     static int Active_Tab = 1;
     static int Active_SubTabRage = 1;
@@ -280,7 +280,7 @@ void Renderer::DrawMenu()
             ImGui::BeginChild("##Text", ImVec2{ 640, 20 }, false);
             {
                 ImGui::SetCursorPos(ImVec2{ 505, 3 });
-                ImGui::Text("Ninja.FUN | YTMcGamer#0131");
+                ImGui::Text("Project-X");
             }
             ImGui::EndChild();
         }
