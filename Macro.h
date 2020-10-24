@@ -1,5 +1,5 @@
 #pragma once
-
+ 
 // Read Data
 #define RELATIVE_ADDR(addr, size)       ((uintptr_t)((uintptr_t)(addr) + *(PINT)((uintptr_t)(addr) + ((size) - sizeof(INT))) + (size)))
 #define ReadPointer(base, offset)       ( *(uintptr_t*) ((PBYTE)base + offset) )
